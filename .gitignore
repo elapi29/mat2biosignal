@@ -1,0 +1,36 @@
+# build
+bnci_export
+*.o
+*.out
+
+# raw / generated data
+*.mat
+*.npy
+*.npz
+*.csv
+data_raw/
+data_csv/
+data_epochs/
+outputs/
+
+# generated figures / reports
+figures_heatmap/
+heatmap_left/
+heatmap_right/
+heatmaps/
+report/
+reports_li_ico/
+trash_old/
+
+# archives
+*.tar
+*.tar.gz
+*.zip
+
+# mac / editors
+.DS_Store
+.vscode/
+.idea/
+
+# logs
+*.log
